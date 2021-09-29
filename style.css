@@ -16,8 +16,8 @@ body{
 }
 
 h1{
-    color: firebrick;
-    font-family: serif;
+    color: crimson;
+    font-family: 'Raleway', sans-serif;
     font-variant: small-caps;
     font-size: 50px;
 }
@@ -41,8 +41,41 @@ p{
 
 #welcome{
     background: linear-gradient(#a6c2ff 0%,#91034f 100%);
+    z-index: 5
     
     
 
 }
+
+.menu{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    list-style: none;
+    font-style: oblique;
+    font-family: Verdana;
+    color: aquamarine;
+    cursor: pointer;
+    
+    z-index: 6;
+}
+
+.links{
+    float:left;
+    color: #fff;
+    font-family: fantasy;
+    padding: 5px;
+    font-size: 30px;
+}
+
+.links:hover{
+    background-color: dodgerblue;
+}
+
+span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    color: cyan
+}
+
 
